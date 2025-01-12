@@ -1,0 +1,19 @@
+.loader{
+    width: 120px;
+    height: 120px;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    /* background-color: pink; */
+    animation : spin 1s   cubic-bezier(0.1, 0.6, 0.2, 0) infinite;
+  
+}
+
+@keyframes spin{
+    0% {
+        transform: rotate(0 deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
